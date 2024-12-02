@@ -210,7 +210,7 @@ img {
 .home__img {
   position: absolute;
   right: 0;
-  bottom: 0;
+  top: 20%;
   width: 260px;
 }
 .home__blob {
@@ -277,6 +277,14 @@ img {
   margin-right: var(--mb-2);
   color: var(--first-color);
 }
+.skills__icon__alt {
+  width: 30px; /* Set desired width */
+  height: 30px; /* Set desired height */
+  margin-right: var(--mb-2); /* Spacing between icon and text */
+  color: var(--first-color);
+  margin-left: 1px; /* Adjust as needed */
+  margin-right: 18px; /* Adjust this value for the desired spacing */
+}
 .skills__names {
   display: flex;
   align-items: center;
@@ -299,9 +307,37 @@ img {
 .skills__js {
   width: 65%;
 }
+.skills__python{ /**/
+  width: 95%;
+}
 .skills__ux {
   width: 85%;
 }
+.skills__java {
+  width: 90%;
+}
+.skills__ai{
+  width: 90%;
+}
+.skills__vision{
+  width: 90%;
+}
+.skills__dataa{
+  width: 85%;
+}
+.skills__react{
+  width: 85%;
+}
+.skills__tensorflow{
+  width: 90%;
+}
+.skills__docker{
+  width: 85%;
+}
+.skills__db{
+  width: 80%;
+}
+
 .skills__img {
   border-radius: 0.5rem;
 }
@@ -321,6 +357,46 @@ img {
 .work__img img:hover {
   transform: scale(1.1);
 }
+
+/* ===== LEADERSHIP =====*/
+
+/* Container for each text-image pair */
+.leadership__container {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  margin-bottom: 20px; /* Space between each pair */
+}
+
+/* Text container: takes the left half of the container */
+.leadership__text-container {
+  flex: 1 1 50%; /* 50% width, grows if necessary */
+  padding-right: 15px; /* Adds space between text and image */
+}
+
+/* Image container: takes the right half of the container */
+.leadership__img-container {
+  flex: 1 1 50%; /* 50% width, grows if necessary */
+  padding-left: 15px; /* Adds space between image and text */
+}
+
+/* Image styling */
+.leadership__img {
+  width: 100%; /* Ensures the image takes full width of its container */
+  height: auto; /* Keeps image's aspect ratio intact */
+  border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+/* Subtitle and text styling */
+.leadership__subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.leadership__text {
+  font-size: 1rem;
+  color: #555; /* Slightly lighter text color for better readability */
+}
+
 
 /* ===== CONTACT =====*/
 .contact__input {
