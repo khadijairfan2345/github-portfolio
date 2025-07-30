@@ -1,0 +1,11 @@
+.work__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* spacing between jobs */
+}
+
+.work__container.bd-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* REMOVE THIS */
+    gap: 2rem;
+}
