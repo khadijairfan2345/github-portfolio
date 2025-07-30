@@ -1,11 +1,27 @@
 .work__container {
     display: flex;
     flex-direction: column;
-    gap: 2rem; /* spacing between jobs */
+    gap: 1.5rem; /* or remove if you're using margin-bottom in .work__item */
 }
 
-.work__container.bd-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* REMOVE THIS */
-    gap: 2rem;
+.work__item {
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Thin, light border */
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    background-color: var(--container-color); /* Optional: only if your theme supports this */
+    margin-bottom: 1.5rem; /* Space between items */
+}
+
+
+.work__card {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+}
+
+.work__title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-5);
 }
