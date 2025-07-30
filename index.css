@@ -1,27 +1,33 @@
 .work__container {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem; /* or remove if you're using margin-bottom in .work__item */
+    gap: 2rem;
+    padding: 1rem;
 }
 
 .work__item {
-    border: 1px solid rgba(0, 0, 0, 0.1); /* Thin, light border */
-    padding: 1.25rem;
-    border-radius: 0.5rem;
-    background-color: var(--container-color); /* Optional: only if your theme supports this */
-    margin-bottom: 1.5rem; /* Space between items */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
-
-
-.work__card {
-    background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1.25rem;
-    border-radius: 0.5rem;
+.work__role {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
 }
-
-.work__title {
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
-    margin-bottom: var(--mb-0-5);
+.work__company {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+.work__duration {
+    font-style: italic;
+    color: #999;
+    margin-bottom: 1rem;
+}
+.work__description li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
 }
