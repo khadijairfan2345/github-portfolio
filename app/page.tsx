@@ -240,35 +240,35 @@ export default function Portfolio() {
       title: "Campus Lead, Google Developer Student Clubs - FAST Islamabad",
       description:
         "Led initiatives to inspire tech growth among students, organizing workshops and events to foster a learning community.",
-      image: "github-portfolio/images/gdsc-group-photo.jpg",
+      image: "/images/gdsc-group-photo.jpg",
       featured: true,
     },
     {
       title: "Speaker & Outreach Manager, Google Developer Groups Islamabad",
       description:
         "Spearheaded outreach efforts and engaged local tech enthusiasts through events and speaker sessions.",
-      image: "github-portfolio/images/gdg-devfest-photo.jpg",
+      image: "/images/gdg-devfest-photo.jpg",
       featured: true,
     },
     {
       title: "Campus Lead, Pakistani Women in Computing",
       description:
         "Supported initiatives aimed at reducing gender disparity in tech by organizing networking and educational events for women in tech.",
-      image: "github-portfolio/images/pwic-event-photo.jpg",
+      image: "/images/pwic-event-photo.jpg",
       featured: true,
     },
     {
       title: "Computing Secretary, NaSCon '23",
       description:
         "Organized and executed 19 computing events, enhancing tech exposure and practical skills for attendees.",
-      image: "github-portfolio/images/nascon-awards.jpg",
+      image: "/images/nascon-awards.jpg",
       featured: true,
     },
     {
       title: "Founder & Vice President, Umeed-e-Nau",
       description:
         "Founded a social impact organization, raising 1,000,000 PKR for medical cases, ration, and education drives, demonstrating a commitment to social welfare.",
-      image: "github-portfolio/images/umeedenau-children.jpg",
+      image: "/images/umeedenau-children.jpg",
       featured: true,
     },
   ]
@@ -450,7 +450,7 @@ export default function Portfolio() {
                 <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 p-2 shadow-2xl shadow-blue-500/25">
                   <div className="w-full h-full rounded-full bg-white flex items-center justify-center overflow-hidden">
                     <img
-                      src="github-portfolio/images/khadija-profile.jpg"
+                      src="/images/khadija-profile.jpg"
                       alt="Khadija Irfan"
                       className="w-72 h-72 lg:w-80 lg:h-80 rounded-full object-cover"
                     />
@@ -528,7 +528,7 @@ export default function Portfolio() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500 rounded-3xl blur-2xl opacity-20"></div>
                 <img
-                  src="github-portfolio/images/khadija-about.jpg"
+                  src="/images/khadija-about.jpg"
                   alt="Khadija Irfan in professional setting"
                   className="relative rounded-3xl shadow-2xl shadow-blue-500/20 max-w-md w-full transform hover:scale-105 transition-transform duration-500"
                 />
