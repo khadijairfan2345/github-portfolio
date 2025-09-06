@@ -493,7 +493,7 @@ export default function Portfolio() {
               </h3>
               <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
                 <p>
-                  I'm Khadija Irfan, a <span className="text-blue-600 font-semibold">Computer Vision Engineer</span> and{" "}
+                  I'm Khadija Irfan, an <span className="text-blue-600 font-semibold">Aspiring Engineer</span> and{" "}
                   <span className="text-purple-600 font-semibold">AI Researcher</span> currently pursuing my Master's in
                   Computer Science at Brown University. With a background in AI from FAST-NUCES (Magna Cum Laude), I
                   design real-time, production-grade systems—from action segmentation on edge devices to multi-GPU
@@ -1031,7 +1031,7 @@ export default function Portfolio() {
           <h3 className="text-3xl font-bold mb-4 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
             Khadija Irfan
           </h3>
-          <p className="text-gray-300 mb-8 text-lg">Computer Vision Engineer & AI Enthusiast</p>
+          <p className="text-gray-300 mb-8 text-lg">AI Enthusiast</p>
           <div className="flex justify-center space-x-6 mb-8">
             {[
               { href: "https://www.linkedin.com/in/khadijairfan/", icon: Linkedin },
